@@ -35,7 +35,7 @@ function initiateModels() {
         name: 'snowman',
         dialogue: "Hi there, I'd really like a snow flurry. Let me know if you see it! Maybe with the cold things?",
         tool: new Tool('snowcloud', "You've found the snowman's snow flurry!"),
-        successDialogue: 'Thanks for my flurry! Please check under where the coats hang for your reward!'
+        successDialogue: 'Thanks for my flurry! Please check where the coats hang for your reward!'
       },
       {
         name: 'one',
@@ -43,13 +43,13 @@ function initiateModels() {
       },
       {
         name: 'angel',
-        dialogue: 'Hey, I\'m Angel! I left my candles in the kitchen... can you help me find it?',
+        dialogue: 'Hey, I\'m Angel! I left my candle in the kitchen... can you help me find it?',
         tool: new Tool('candle', 'You have found Angel\'s candle!'),
         successDialogue: 'My candle! Check under the aquarium for your reward!'
       },
       {
         name: 'two',
-        dialogue: "Congratulations! Share your booty! Look for a climbing elf..."
+        dialogue: "Congratulations! Share your booty! Look for a tree climbing elf..."
       },
       {
         name: 'elf',
