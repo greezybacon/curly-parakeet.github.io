@@ -32,38 +32,48 @@ Tool.prototype = Object.create(ARModel.prototype);
 function initiateModels() {
     var buildersArray = [
       {
-        name: 'pyra',
-        dialogue: 'Hi there, I\'m Pyra! I\'ve lost my hammer. Let me know if you see it!',
-        tool: new Tool('hammer', 'You have found Pyra\'s hammer!'),
-        successDialogue: 'Thanks for my hammer!'
+        name: 'snowman',
+        dialogue: "Hi there, I'd really like a snow flurry. Let me know if you see it! Maybe with the cold things?",
+        tool: new Tool('snowcloud', "You've found the snowman's snow flurry!"),
+        successDialogue: 'Thanks for my flurry! Please check under where the coats hang for your reward!'
       },
       {
-        name: 'biggie',
-        dialogue: 'Hey, I\'m Biggie! I left my blocks somewhere in the office... can you help me find it?',
-        tool: new Tool('blocks', 'You have found Biggie\'s blocks!'),
-        successDialogue: 'My blocks have been found!'
+        name: 'one',
+        dialogue: "Congratulations! Look for an angel in the church pew..."
       },
       {
-        name: 'frenchie',
-        dialogue: 'Je suis Frenchie! I\'ve misplaced my favorite builder hat right before the party. Merde!',
-        tool: new Tool('hat', 'You have found Frenchie\'s hat!'),
-        successDialogue: 'Merci!'
+        name: 'angel',
+        dialogue: 'Hey, I\'m Angel! I left my candles in the kitchen... can you help me find it?',
+        tool: new Tool('candle', 'You have found Angel\'s candle!'),
+        successDialogue: 'My candle! Check under the aquarium for your reward!'
       },
       {
-        name: 'lil',
-        dialogue: 'I\'m short so they call me Lil! I have to finish my project, but I can\'t find my screwdriver...',
-        tool: new Tool('screwdriver', 'You have found Lil\'s screwdriver!'),
-        successDialogue: 'Thanks for the screwdriver!'
+        name: 'two',
+        dialogue: "Congratulations! Share your booty! Look for a climbing elf..."
       },
       {
-        name: 'toob',
-        dialogue: 'Pleased Toob meet you... haha... see what I did there? By the way, have you seen my wrench?',
-        tool: new Tool('wrench', 'You have found Toob\'s wrench!'),
-        successDialogue: 'Thanks for finding my wrench!'
+        name: 'elf',
+        dialogue: 'Merry Christmas! I\'d really like a campfire. Have you seen one?',
+        tool: new Tool('campfire', 'You have found Elf\'s campfire!'),
+        successDialogue: 'Merci! Check with the s\'mores for your reward!'
+      },
+      {
+        name: 'three',
+        dialogue: "Congratulations! Share your booty! Look next for a reindeer at the door",
+      },
+      {
+        name: 'reindeer',
+        dialogue: 'Merry Christmas! I was left behind. Could you bring me a cookie and coffee while I wait for my ride?',
+        tool: new Tool('cookie', 'You have found reindeer\'s cookie!'),
+        successDialogue: 'Thanks for the cookie! Wanna play a board game too?'
+      },
+      {
+        name: 'four',
+        dialogue: "You win! Share the booty. Your stockings are hiding behind the tree..."
       },
       {
         name: 'demo',
-        dialogue: 'Meow! Welcome to CBRE Build.',
+        dialogue: "Hello! This is what the clues look like."
       }
     ];
 
