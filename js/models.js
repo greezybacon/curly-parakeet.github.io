@@ -73,7 +73,7 @@ function initiateModels() {
       },
       {
         name: 'demo',
-        dialogue: "Hello! This is what the clues look like."
+        dialogue: "Hello! I think I saw a snowman with 'the Internet'."
       }
     ];
 
